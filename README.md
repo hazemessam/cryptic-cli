@@ -1,7 +1,7 @@
 # Cryptic
 
 ## Description
-Cryptic is a Python CLI tool that encrypts and decrypts any type of files. The tool firstly tries to encrpt/decrypt the file as a text based file using the caesar cipher and if it throws an `UnicodeDecodeError` exception, the tool detects that it is a byte based file and encrypt it using an encryption algorithm that reads the file line by line and add a specific byte line between every two successive lines and when the user tries to decrypt the file it removes the added specific byte lines from the file.
+Cryptic is a Python CLI tool that encrypts and decrypts any type of files. The tool firstly tries to encrypt/decrypt the file as a text based file using the caesar cipher and if it throws an `UnicodeDecodeError` exception, the tool detects that it is a byte based file and encrypt it using an encryption algorithm that reads the file line by line and add a specific byte line between every two successive lines and when the user tries to decrypt the file it removes the added specific byte lines from the file.
 
 ## File Structure
 - ### \_\_init__.py
